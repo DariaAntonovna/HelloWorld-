@@ -1,0 +1,276 @@
+.top-cart {
+    font-family        : "Poppins", sans-serif;
+    height             : 400px;
+    background-image   : url(img/corzina.jpeg);
+    background-size    : cover;
+    background-position: center;
+    background-repeat  : no-repeat;
+
+}
+
+.header {
+
+    &__link {
+        color      : rgb(255, 255, 255);
+        font-family: Montserrat;
+        font-size  : 16px;
+        font-weight: 400;
+        line-height: 20px;
+    }
+
+    &__tittle {
+        color         : rgb(255, 255, 255);
+        font-family   : Montserrat;
+        font-size     : 64px;
+        font-weight   : 600;
+        line-height   : 70px;
+        letter-spacing: 0%;
+        text-align    : left;
+        margin-top    : 127px;
+    }
+
+    &__input::placeholder {
+        color      : rgb(255, 255, 255);
+        font-family: Montserrat;
+        font-size  : 16px;
+        font-weight: 400;
+        line-height: 20px;
+    }
+}
+
+.cart {
+    display              : grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap                  : 32px;
+    margin-top           : 64px;
+
+    &__name-box {
+        display        : flex;
+        justify-content: space-between;
+        padding-bottom : 14px;
+    }
+
+    &__name-boxk {
+        padding-right: 30px;
+    }
+
+    &__form {
+        border-radius: 20px;
+        background   : rgb(247, 246, 246);
+        height       : 556px;
+        grid-column  : span 4;
+    }
+
+    &__form-title {
+        color         : rgb(0, 0, 0);
+        font-family   : Montserrat;
+        font-size     : 24px;
+        font-weight   : 700;
+        line-height   : 29px;
+        letter-spacing: 0px;
+        text-align    : center;
+        height        : 36px;
+        padding-top   : 42px;
+    }
+
+    &__input {
+        border-radius: 6px;
+        background   : rgb(247, 246, 246);
+        width        : 71px;
+        height       : 51px;
+        outline      : none;
+        border-color : transparent;
+        text-align   : center;
+        color        : rgb(0, 0, 0);
+        font-family  : Poppins;
+        font-size    : 14px;
+        font-weight  : 600;
+
+    }
+
+    &__form-input {
+        display       : flex;
+        flex-direction: column;
+        gap           : 44px;
+        padding-left  : 27px;
+        padding-right : 64px;
+        padding-top   : 35px;
+        padding-bottom: 68px;
+    }
+
+    &__form-inputinfo {
+        border-style    : none;
+        background-color: transparent;
+        border-bottom   : 1px solid rgb(202, 205, 216);
+        outline         : none;
+        color           : rgb(0, 0, 0);
+        font-family     : Montserrat;
+        font-size       : 14px;
+        font-weight     : 400;
+        line-height     : 17px;
+        letter-spacing  : 0px;
+
+    }
+
+    &__form-inputinfo::placeholder {
+        color: rgb(0, 0, 0);
+    }
+
+    &__sum {
+        display        : flex;
+        flex-direction : row;
+        gap            : 10px;
+        justify-content: center;
+    }
+
+    &__sum-total {
+        color         : rgb(0, 0, 0);
+        font-family   : Montserrat;
+        font-size     : 24px;
+        font-weight   : 400;
+        line-height   : 29px;
+        letter-spacing: 0px;
+    }
+
+    &__sum-price {
+        color         : rgb(0, 0, 0);
+        font-family   : Montserrat;
+        font-size     : 24px;
+        font-weight   : 500;
+        line-height   : 29px;
+        letter-spacing: 0px;
+    }
+
+    &__button-box {
+        display   : flex;
+        gap       : 7px;
+        margin-top: 18px;
+    }
+
+    &__button {
+        box-sizing      : border-box;
+        border          : 1px solid rgb(0, 0, 0);
+        border-radius   : 50px;
+        width           : 200px;
+        height          : 37px;
+        background-color: #FFFFFF;
+        color           : rgb(0, 0, 0);
+        font-family     : Montserrat;
+        font-size       : 14px;
+        font-weight     : 400;
+        line-height     : 17px;
+        letter-spacing  : 0px;
+        text-align      : center;
+    }
+
+    &__link-box {
+        color               : black;
+        font-family         : Montserrat;
+        font-size           : 14px;
+        font-weight         : 400;
+        line-height         : 210%;
+        letter-spacing      : 0px;
+        text-decoration-line: underline;
+        display             : flex;
+        gap                 : 30px;
+    }
+
+
+    &__link-box_favorites {
+        width : 85px;
+        height: 29px;
+        color : rgb(0, 0, 0);
+    }
+
+    &__delete {
+        width : 60px;
+        height: 29px;
+        color : rgb(0, 0, 0);
+    }
+
+
+    &__item {
+        border-top     : 0.5px solid rgb(202, 205, 216);
+        padding-top    : 25px;
+        padding-bottom : 32px;
+        display        : flex;
+        justify-content: space-between;
+        align-items    : flex-start;
+    }
+
+    &__item-padding {
+        padding-top: 32px;
+    }
+
+    &__left {
+        display: flex;
+        gap    : 32px;
+    }
+
+    &__info {
+        width: 276px;
+    }
+
+    &__title {
+        color         : rgb(0, 0, 0);
+        font-family   : Montserrat;
+        font-size     : 24px;
+        font-weight   : 500;
+        line-height   : 29px;
+        letter-spacing: 0px;
+        text-align    : left;
+
+    }
+
+    &__description {
+        color         : rgb(136, 136, 136);
+        font-family   : Montserrat;
+        font-size     : 14px;
+        font-weight   : 400;
+        line-height   : 17px;
+        letter-spacing: 0%;
+        text-align    : left;
+    }
+
+    &__price {
+        color         : rgb(5, 5, 5);
+        font-family   : Montserrat;
+        font-size     : 16px;
+        font-weight   : 500;
+        line-height   : 20px;
+        letter-spacing: 0%;
+    }
+
+    &__content {
+        grid-column: span 8;
+    }
+
+    &__info {
+        display       : flex;
+        flex-direction: column;
+        gap           : 14px;
+    }
+
+    &__button-order {
+        box-sizing      : border-box;
+        border          : 1px solid rgb(4, 4, 4);
+        border-radius   : 20px;
+        background-color: transparent;
+        margin-top      : 18px;
+        width           : 290px;
+        height          : 41px;
+        margin-left     : 45px;
+        margin-right    : 44px;
+        color           : rgb(0, 0, 0);
+        font-family     : Montserrat;
+        font-size       : 16px;
+        font-weight     : 400;
+        line-height     : 20px;
+        letter-spacing  : 0px;
+        text-align      : center;
+
+    }
+
+
+
+}
