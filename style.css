@@ -579,7 +579,6 @@
   line-height: 29px;
   letter-spacing: 0px;
   text-align: center;
-  width: 379px;
   height: 36px;
   padding-top: 42px;
 }
@@ -957,7 +956,7 @@
   border-color: #000;
 }
 
-.checkbox__input:checked + .checkbox__label--black::before {
+.checkbox__input--white:checked + .checkbox__label--black::before {
   background-image: url(img/chek_white.svg);
   background-repeat: no-repeat;
   background-position: center;
@@ -1094,9 +1093,6 @@
   .center {
     padding-left: 24px;
     padding-right: 24px;
-  }
-  .product-box {
-    width: 345px;
   }
   .filter-button-wrapper {
     display: none;
