@@ -4,8 +4,7 @@
 }
 
 .body {
-    font-family:
-        "Montserrat", sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 
 .center {
@@ -352,17 +351,27 @@
     text-decoration-line: underline;
 }
 
+.bottom-link__catalog:hover {
+    text-decoration: none;
+    color          : #888888;
+}
+
 .footer {
     background-color: rgb(247, 246, 246);
     padding-top     : 32px;
-    padding-bottom  : 58px;
 }
+
+
 
 .footer-div {
     display        : flex;
     flex-wrap      : wrap;
     align-items    : center;
     justify-content: space-between;
+}
+
+.footer__logo {
+    margin-bottom: 80px;
 }
 
 .footer__menu-div {
@@ -401,6 +410,18 @@
     flex-direction : row;
     align-items    : center;
     gap            : 20px;
+}
+
+.footer__img_animationtgvk:hover{
+    background-image: url(img/vkblack.svg);
+}
+
+.footer__img_animationtg:hover {
+    background-image: url(img/telegramblack.svg);
+}
+
+.footer__img_animationtgya:hover{
+    background-image: url(img/yandexblack.svg);
 }
 
 .footer__title-contacts {
@@ -491,6 +512,12 @@
     line-height  : 18px;
     color        : #000000;
     font-family  : inherit
+}
+
+.footer__button:hover{
+    background   :#000000;
+    color        : #FFFFFF;
+
 }
 
 @import 'cart';

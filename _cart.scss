@@ -18,16 +18,6 @@
         line-height: 20px;
     }
 
-    &__tittle {
-        color         : rgb(255, 255, 255);
-        font-family   : Montserrat;
-        font-size     : 64px;
-        font-weight   : 600;
-        line-height   : 70px;
-        letter-spacing: 0%;
-        text-align    : left;
-        margin-top    : 127px;
-    }
 
     &__input::placeholder {
         color      : rgb(255, 255, 255);
@@ -273,4 +263,9 @@
 
 
 
+}
+
+.cart__button:hover {
+    background: #000000;
+    color     : #FFFFFF;
 }
