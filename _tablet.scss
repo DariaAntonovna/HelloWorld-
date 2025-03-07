@@ -10,6 +10,10 @@
         }
     }
 
+    .header__tittle {
+        font-family: 'Montserrat';
+    }
+
     .footer__logo-none {
         display: none;
     }
@@ -42,11 +46,6 @@
     }
 
 
-    /*.filter-button-wrapper {
-        display: none;
-    }*/
-
-
 
     .cart {
         display       : flex;
@@ -55,6 +54,19 @@
         &__form {
             width: 376px;
         }
+    }
+
+    .filtering-form {
+        right     : unset;
+        margin-top: unset;
+    }
+
+    .filter-button-wrapper {
+        margin-top: 14px;
+    }
+
+    .footer-div {
+        padding-bottom: 63px;
     }
 
 }

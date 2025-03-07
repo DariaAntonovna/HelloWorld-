@@ -13,7 +13,8 @@
     gap             : 36px;
     background-color: #fff;
     box-shadow      : 0px 4px 67px -12px rgba(0, 0, 0, 0.32);
-    padding         : 40px 48px;
+    right           : 238px;
+    margin-top      : 14px;
 }
 
 .filtering-form__content-wrapper {
@@ -23,6 +24,7 @@
     gap           : 32px 65px;
     max-height    : 548px;
     min-width     : 540px;
+    padding       : 40px 48px;
 }
 
 .filtering-form__fieldset {

@@ -175,7 +175,7 @@
     text-align    : left;
 }
 
-.catalog-button {
+.contanier-button {
     display  : flex;
     gap      : 10px;
     flex-wrap: wrap;
@@ -368,6 +368,7 @@
     flex-wrap      : wrap;
     align-items    : center;
     justify-content: space-between;
+    padding-bottom : 59px;
 }
 
 .footer__logo {
@@ -412,17 +413,11 @@
     gap            : 20px;
 }
 
-.footer__img_animationtgvk:hover{
-    background-image: url(img/vkblack.svg);
+.footer__img:hover {
+    filter: brightness(0);
+
 }
 
-.footer__img_animationtg:hover {
-    background-image: url(img/telegramblack.svg);
-}
-
-.footer__img_animationtgya:hover{
-    background-image: url(img/yandexblack.svg);
-}
 
 .footer__title-contacts {
     color         : rgb(0, 0, 0);
@@ -514,9 +509,9 @@
     font-family  : inherit
 }
 
-.footer__button:hover{
-    background   :#000000;
-    color        : #FFFFFF;
+.footer__button:hover {
+    background: #000000;
+    color     : #FFFFFF;
 
 }
 

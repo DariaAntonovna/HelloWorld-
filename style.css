@@ -178,7 +178,7 @@
   text-align: left;
 }
 
-.catalog-button {
+.contanier-button {
   display: flex;
   gap: 10px;
   flex-wrap: wrap;
@@ -355,10 +355,14 @@
   text-decoration-line: underline;
 }
 
+.bottom-link__catalog:hover {
+  text-decoration: none;
+  color: #888888;
+}
+
 .footer {
   background-color: rgb(247, 246, 246);
   padding-top: 32px;
-  padding-bottom: 58px;
 }
 
 .footer-div {
@@ -366,6 +370,11 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
+  padding-bottom: 59px;
+}
+
+.footer__logo {
+  margin-bottom: 80px;
 }
 
 .footer__menu-div {
@@ -404,6 +413,10 @@
   flex-direction: row;
   align-items: center;
   gap: 20px;
+}
+
+.footer__img:hover {
+  filter: brightness(0);
 }
 
 .footer__title-contacts {
@@ -510,6 +523,11 @@
   font-family: inherit;
 }
 
+.footer__button:hover {
+  background: #000000;
+  color: #FFFFFF;
+}
+
 .top-cart {
   font-family: "Poppins", sans-serif;
   height: 400px;
@@ -525,16 +543,6 @@
   font-size: 16px;
   font-weight: 400;
   line-height: 20px;
-}
-.header__tittle {
-  color: rgb(255, 255, 255);
-  font-family: Montserrat;
-  font-size: 64px;
-  font-weight: 600;
-  line-height: 70px;
-  letter-spacing: 0%;
-  text-align: left;
-  margin-top: 127px;
 }
 .header__input::-moz-placeholder {
   color: rgb(255, 255, 255);
@@ -756,6 +764,11 @@
   text-align: center;
 }
 
+.cart__button:hover {
+  background: #000000;
+  color: #FFFFFF;
+}
+
 .filter-button-wrapper {
   position: relative;
   width: 100%;
@@ -771,7 +784,8 @@
   gap: 36px;
   background-color: #fff;
   box-shadow: 0px 4px 67px -12px rgba(0, 0, 0, 0.32);
-  padding: 40px 48px;
+  right: 238px;
+  margin-top: 14px;
 }
 
 .filtering-form__content-wrapper {
@@ -781,6 +795,7 @@
   gap: 32px 65px;
   max-height: 548px;
   min-width: 540px;
+  padding: 40px 48px;
 }
 
 .filtering-form__fieldset {
@@ -1069,6 +1084,9 @@
   .for__item {
     height: 268px;
   }
+  .header__tittle {
+    font-family: "Montserrat";
+  }
   .footer__logo-none {
     display: none;
   }
@@ -1094,9 +1112,6 @@
     padding-left: 24px;
     padding-right: 24px;
   }
-  .filter-button-wrapper {
-    display: none;
-  }
   .cart {
     display: flex;
     flex-direction: column;
@@ -1104,14 +1119,21 @@
   .cart__form {
     width: 376px;
   }
+  .filtering-form {
+    right: unset;
+    margin-top: unset;
+  }
+  .filter-button-wrapper {
+    margin-top: 14px;
+  }
+  .footer-div {
+    padding-bottom: 63px;
+  }
 }
 @media (max-width: 767px) {
   .center {
     padding-left: 16px;
     padding-right: 16px;
-  }
-  .filter-button-wrapper {
-    display: none;
   }
   .header__top {
     border-bottom: none;
@@ -1124,6 +1146,15 @@
   }
   .header__ul {
     display: none;
+  }
+  .header__tittle {
+    font-family: "Montserrat";
+  }
+  .header__link-mobile {
+    display: none;
+  }
+  .header-catalog__tittle {
+    text-align: center;
   }
   .menu-mob {
     display: flex;
@@ -1147,6 +1178,9 @@
     font-size: 14px;
     line-height: 24px;
   }
+  .contanier-button {
+    margin-top: 14px;
+  }
   .top__content {
     display: flex;
     flex-direction: column;
@@ -1155,6 +1189,9 @@
   .title {
     font-size: 24px;
     line-height: 29px;
+  }
+  .catalog-nav {
+    margin-top: 32px;
   }
   .box__title {
     font-size: 24px;
@@ -1180,6 +1217,9 @@
   .footer-div {
     justify-content: center;
     gap: 100px;
+  }
+  .product-box__catalog {
+    margin-top: 20px;
   }
   .product__img {
     width: 342px;
@@ -1221,5 +1261,32 @@
   .cart__button-order {
     margin-left: 27px;
     margin-right: 27px;
+  }
+  .filtering-form {
+    padding: unset;
+    right: unset;
+    margin-top: unset;
+  }
+  .filtering-form__content-wrapper {
+    min-width: unset;
+    max-height: none;
+    padding: 40px 48px;
+  }
+  .filter-button-wrapper {
+    margin-top: 14px;
+    justify-content: flex-start;
+  }
+  .filtering-form__button {
+    align-self: unset;
+    width: unset;
+    margin-left: unset;
+    margin-top: unset;
+    margin-right: unset;
+  }
+  .catalog-button__style_filter {
+    order: 1;
+  }
+  .footer-div {
+    padding-bottom: unset;
   }
 }/*# sourceMappingURL=style.css.map */
